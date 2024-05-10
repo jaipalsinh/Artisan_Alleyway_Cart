@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    /* background-color: #333; */
+    color: white;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: 'Poppins';
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: rgb(0, 0, 0);
+}
+
+.nav li a:hover {
+    background-color: #a69086;
+    /* border-radius: 10px; */
+    color: black;
+}
+
+.login {
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Poppins';
+    margin-right: 30px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: rgb(0, 0, 0);
+}
+
+
+/* Wrapper styles */
+.wrapper {
+    display: flex;
+}
+
+/* Shopping cart styles */
+.shopping-cart {
+    flex: 2;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.head_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-heading {
+    text-align: left;
+}
+
+.img{
+    position: relative;
+    top: 0px;
+}
+
+.product-card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product-image {
+    float: right;
+    margin-left: 10px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Payment details and ads section styles */
+.sidebar-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ads {
+    margin-bottom: 20px;
+}
+
+.ad {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
